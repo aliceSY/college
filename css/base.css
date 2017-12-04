@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,input{ margin:0; padding:0; }
+fieldset, img,input,button { border:0 none; padding:0;margin:0;outline-style:none; }   /*去掉input等聚焦时的蓝色边框*/
+ul, ol { list-style:none; }
+a{text-decoration: none;}
+/*input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}*/
+select, input { vertical-align:middle;}
+/*select, input, textarea { font-size:12px; margin:0; }*/
+textarea { resize:none; } /*防止拖动*/
+img {border:0; vertical-align:middle; }  
+/*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+table { border-collapse:collapse; }
+
+
+
+.clearfix:after{
+    content:"";
+    display: block;
+    height: 0;
+    clear:both;
+    overflow:hidden;
+    visibility:hidden;
+    /*兼容ie*/
+   zoom:1;
+}
+
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:1em;}  /*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+s,i,em{font-style:normal;text-decoration:none;}
+
+
+/*公共类*/
+.container {  /*版心 提取 */
+    width: 1002px;
+    margin:0 auto;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+.al {
+    text-align:left;
+}
+.ac {
+    text-align:center;
+}
+.ar {
+    text-align:right;
+}
+.hide {
+    display:none;
+}
+.font12{ font-size: 12px;}
+.font14{ font-size: 14px;}
+.font16{ font-size: 16px;}
+
+/*公共部分*/
+/*头部左侧*/
+#collage{width:100%;}
+#head .container{height:35px;background: #E4E4E4;}
+#head li{float:left;}
+#head li a{display:block;color: #6A686B;padding-top:10px;height:25px;}
+#head li span{display:block;padding:0 10px 0 10px;font-size: 12px;line-height: 12px;border-right: 1px solid #D5D5D5;}
+
+/*头部右侧*/
+.right_head li{float:left;}
+.right_head li a{display:block;color: #6A686B;padding-top:10px;height:25px;font-size: 12px;padding:0 10px 0 10px;}
+.right_head input{width:140px;height: 20px;margin-left: 14px;margin-top:9px;border:1px solid#E7E3E2;}
+.right_head .mirror{width:30px;height: 21px;position:relative;float:right;}
+.right_head .mirror i{display:block;width:29px;height: 21px;background:url("../images/mirror.jpg") no-repeat;position:absolute;right:2px;top:9px;}
+
+/*logo区域*/
+#logo .container{height:98px;}
+#logo h2{width:342px;height: 98px;background:url("../images/logo_left.jpg");left:0;top:0;}
+#logo h3{width:367px;height: 98px;background:url("../images/right_logo.jpg");right:0;top:0;}
+
+/*导航条*/
+#nav{background:#D92B34;}
+#nav .container{background:#C8141F;}
+#nav li{float:left;}
+#nav a{font-size: 16px;line-height:44px;color:#FCFEFD;padding:0px 18px 0 18px;}
+
+

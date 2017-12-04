@@ -1,0 +1,69 @@
+/* 
+* @Author: zfc
+* @Date:   2017-11-24 17:20:38
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-12-04 22:13:19
+*/
+
+/*轮播图*/
+#banner .container{height: 328px;}
+#banner .left_ban img{width: 669px;height: 328px;}
+#banner .right_ban{height:328px;width:333px;background: #EEEEEE;}
+.right_ban ul{padding:10px 40px 0 40px;}
+.right_ban li{width:239px;border-bottom: 1px dashed #D5D5D5;padding-bottom:6px;}
+.right_ban a{display:block;font-size:12px;line-height:18px;padding-top:8px;color:#424242;}
+.right_ban .fuck{display:block;height:19px;width:333px;position:relative;}
+.right_ban .fuck i{width:15px;height: 16px;background:url("../images/fuckarrow.jpg");right:60px;bottom:6px;position: absolute;
+}
+
+/*主题区域*/
+#main{height: 588px;border-bottom: 2px solid #FF9C00;}
+#main .left_main{width:309px;}
+#main .center_main{width:420px;}
+#main .right_main{width:250px;}
+
+#main h2{font-size: 16px;line-height: 42px;padding-top:38px;}
+/*主题左侧区域*/
+#main .left_main h2{width:270px;border-bottom: 1px solid #ECECEC;}
+#main .left_main .top{height: 253px;}
+#main .left_main .top img{margin:20px 40px 30px 0;}
+#main .left_main .foot{height:335px;}
+.left_main .foot ul{width:250px;height: 255px;margin-top:20px;}
+.left_main .foot a{display:block;font-size: 12px;line-height: 24px;color:#323335;}
+.left_main .foot span{display:block;float:right;margin:-1px;}
+
+/*主题中间区域*/
+#main .center_main .top{height:253px;}
+#main .center_main .foot{height:335px;}
+#main .center_main .top h2{width:419px;border-bottom: 1px solid #ECECEC;}
+#main .center_main .top ul{width:344px;height: 173px;margin-top:20px;}
+#main .center_main .top li{padding-left:77px;position:relative;height:61px;padding-bottom: 13px;}
+.center_main .top ul h3{font-size: 12px;line-height: 20px;color:#2C2B29;}
+.center_main .top ul p{font-size: 10px;line-height: 18px;color:#6F7170;}
+.center_main i{width:60px;height: 61px;background:url(../images/date.jpg);position:absolute;left:0;top:0;}
+
+/*#main .center_main .top h4{width:324px;height: 74px;color:green;position:absolute}*/
+
+#main .center_main .foot h2{width:419px;border-bottom: 1px solid #ECECEC;}
+#main .center_main .foot ul{height:235px;}
+.center_main .foot ul{width:419px;height: 255px;margin-top:20px;}
+.center_main .foot a{display:block;font-size: 12px;line-height: 24px;color:#323335;}
+.center_main .foot span{display:block;float:right;margin:-1px;}
+
+/*右侧区域*/
+.right_main .top_pic{width:240px;padding:40px 0 21px 0;}
+.right_main .top_pic img{display:block;width:240px;height: 272px;}
+
+.right_main .mail{width:240px;height:255px;}
+.right_main .mail h3{width:240px;font-size: 16px;color:#878789;line-height:38px;padding-top:11px;border-bottom:1px solid #878789;margin-bottom: 33px;}
+.right_main .mail input{height: 28px;width:218px;border:1px solid #CCCCCC;margin-bottom: 4px;}
+.right_main .mail a{height:24px;width:81px;border:1px solid #E5E5E5;background:#F0F0F0;text-align:center;line-height:24px;color:#000200;}
+.right_main .mail p{padding-right: 30px;padding-top:6px;font-size: 12px;color:#353535;}
+
+/*灰色区域*/
+#huise{height: 24px;background:#EBEBEB;}
+
+/*底部*/
+#foot_hui{background:#D4D4D4;}
+#foot_hui ul{height: 42px;}
+#foot_hui li{float:left;width:200px;color:#000000;font-size: 12px;line-height: 40px;padding-bottom: 2px;text-align: center;}
