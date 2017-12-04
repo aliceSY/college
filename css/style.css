@@ -2,7 +2,7 @@
 * @Author: zfc
 * @Date:   2017-11-24 17:20:38
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-12-04 22:13:19
+* @Last Modified time: 2017-12-04 22:29:46
 */
 
 /*轮播图*/
@@ -61,7 +61,8 @@
 .right_main .mail p{padding-right: 30px;padding-top:6px;font-size: 12px;color:#353535;}
 
 /*灰色区域*/
-#huise{height: 24px;background:#EBEBEB;}
+#huise{height: 24px;background:#EBEBEB;position:relative;}
+#huise i{width:58px;height:12px;background:url("../images/downarrow.jpg");position:absolute;left:50%;top:0;margin-left: -29px;}
 
 /*底部*/
 #foot_hui{background:#D4D4D4;}
